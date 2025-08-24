@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <h1 class="head">Remainder App</h1>
+    <div class="container">
+      <div class="user-container">
+        <h2 class="heading">S2V2</h2>
+        <h3 class="heading">Contacts</h3>
+        <button class="button person-selector-button active-person" id="john-selector">John</button>
+        <button class="button person-selector-button" id="jane-selector">Jane</button>
+        <button class="button person-selector-button" id="mary-selector">Mary</button>
+        <button class="button person-selector-button" id="peter-selector">Peter</button>
+      </div>
+    <!-- <div class="person-selector">
+      <button class="button person-selector-button active-person" id="john-selector">John</button>
+      <button class="button person-selector-button" id="jane-selector">Jane</button>
+    </div> -->
+    <div class="chat-container">
+      <h2 class="chat-header">household task remainder+...</h2>
+
+      <div class="chat-messages">
+        <div class="message blue-bg">
+          <div class="message-sender">John</div>
+          <div class="message-text">Hey Jane, what's up?</div>
+          <div class="message-timestamp">10:30 AM</div>
+        </div>
+        <div class="message gray-bg">
+          <div class="message-sender">Jane</div>
+          <div class="message-text">Not much, just living the dream. How about you?</div>
+          <div class="message-timestamp">10:35 AM</div>
+        </div>
+        <div class="message black-bg">
+          <div class="message-sender">Mary</div>
+          <div class="message-text">Not much, just living the dream. How about you?</div>
+          <div class="message-timestamp">10:35 AM</div>
+        </div>
+        <div class="message white-bg">
+          <div class="message-sender">Peter</div>
+          <div class="message-text">Not much, just living the dream. How about you?</div>
+          <div class="message-timestamp">10:35 AM</div>
+        </div>
+      </div>
+
+      <form class="messageForm">
+        <input type="text" class="chat-input" id="messageInput" required placeholder="Type here, John..." />
+        <input type="datetime-local" id="scheduleTime" placeholder="dd-mm-yyyy" />
+        <button type="submit" class="button send-button">Send</button>
+      </form>
+      <button class="button clear-chat-button">Clear Chat</button>
+    </div>
+  </div>
+
+    <script src="app.js">
+
+    </script>
+  </body>
+</html>
